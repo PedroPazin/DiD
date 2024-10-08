@@ -2,8 +2,8 @@ package Classes;
 
 public enum Classes {
     MAGE(new Mage(10, 3, 3)),
-    PALADIN(new Paladin(10, 3, 3)),
-    BARBARIAN(new Barbarian(10, 3, 3));
+    PALADIN(new Paladin(7, 6, 5)),
+    BARBARIAN(new Barbarian(1, 12, 5));
 
     private final EntityClass classe;
 
